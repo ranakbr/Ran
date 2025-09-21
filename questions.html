@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ae360af17e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        
+        <div class="main">
+            
+            <div class="container-fluid">
+                <nav class="navbar navbar-expand px-1">
+                    <a class="navbar-brand px-3">
+                        <img src="Maldives_blue.png" style="width: 110px;">
+                    </a>
+                    <div class="navbar-collapse navbar">
+                        <ul class="navbar-nav"></ul>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="container py-4">
+                
+                <form id="quizForm1" action="submit.php" method="POST">
+                    <div class="p-1 mb-3 bg-body rounded-3">
+                        <div class="container-fluid py-3">
+                            <h5 class="fw-semibold">Pertanyaan 1</h5>
+                            <p class="text-start text-break">
+                                Ayu sedang dalam perjalanan pulang menggunakan KAI. 
+                                Kebetulan saat itu Ayu menaiki kereta terakhir karena dia baru saja pulang sehabis lembur kerja. 
+                                Keadaan gerbong KAI saat itu sepi dan hanya ada Ayu serta seorang pria disana. Di saat Ayu sedang asyik mendengar musik melaui earphonenya, 
+                                tanpa di sadari pria yang sebelumnya duduknya berjauhan dengan Ayu sudah berada di samping Ayu. 
+                                Pria tersebut bebincang basa basi dengan Ayu namun tidak lama tangannya mulai memegangi paha Ayu dan hal itu membuat Ayu tampak tidak nyaman dan risih.
+                            </p>
+                            <p>Menurut Anda mengapa pria tersebut bisa melakukan pelecehan terhadap Ayu di gerbong KAI?</p>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="question1" id="question1_option1" value="Dikuasai hawa nafsu">
+                                <label class="form-check-label" for="question1_option1">
+                                    Dikuasai hawa nafsu
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="question1" id="question1_option2" value="Merasa Ayu tidak akan bisa melawan">
+                                <label class="form-check-label" for="question1_option2">
+                                    Merasa Ayu tidak akan bisa melawan
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="question1" id="question1_option3" value="Adanya kesempatan">
+                                <label class="form-check-label" for="question1_option3">
+                                    Adanya kesempatan
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="question1" id="question1_option4" value="Semua jawaban di atas benar">
+                                <label class="form-check-label" for="question1_option4">
+                                    Semua jawaban di atas benar
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="p-1 mb-3 bg-body rounded-3">
+                        <div class="container-fluid py-3">
+                            <h5 class="fw-semibold">Pertanyaan 2</h5>
+                            <p class="text-start text-break">
+                                Tio sedang menaiki MRT menuju kampusnya. 
+                                Tiba-tiba Tio merasakan pahanya di raba oleh seseorang, 
+                                namun Tio saat itu tidak dapat menemukan sang pelaku karena kondisi gerbong yang penuh dan berdesak-desakan.</p>
+                            <p>Menurut Anda tindakan apa yang tepat dilakukan oleh Tio selanjutnya dalam menangani kekerasan seksual yang dia dapatkan?</p>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="question2" id="question2_option1" value="Membuat thread di twitter agar viral">
+                                <label class="form-check-label" for="question2_option1">
+                                    Membuat thread di twitter agar viral
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="question2" id="question2_option2" value="Mengadukannya ke call center atau email MRT dengan menyertakan keterangan kejadian serta lampiran bukti berupa rekaman cctv di dalam MRT">
+                                <label class="form-check-label" for="question2_option2">
+                                    Mengadukannya ke call center atau email MRT dengan menyertakan keterangan kejadian serta lampiran bukti berupa rekaman cctv di dalam MRT
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="question2" id="question2_option3" value="Diam saja dan bersabar agar masalah tidak membesar dan harga dirinya tidak ternodai">
+                                <label class="form-check-label" for="question2_option3">
+                                    Diam saja dan bersabar agar masalah tidak membesar dan harga dirinya tidak ternodai
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="question2" id="question2_option4" value="Mengajak kawan-kawan lainnya untuk mencari si pelaku dan menghajarnya ramai-ramai">
+                                <label class="form-check-label" for="question2_option4">
+                                    Mengajak kawan-kawan lainnya untuk mencari si pelaku dan menghajarnya ramai-ramai
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="p-1 mb-3 bg-body rounded-3">
+                        <div class="container-fluid py-3">
+                            <h5 class="fw-semibold">Pertanyaan 3</h5>
+                            <p class="text-start text-break">
+                                Pasal yang menyebutkan tentang Tindak Pidana Kekerasan Seksual adalah…
+                            </p>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="question3" id="question3_option1" value="UUD ayat 1">
+                                <label class="form-check-label" for="question3_option1">
+                                    UUD ayat 1
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="question3" id="question3_option2" value="UU Nomor 28">
+                                <label class="form-check-label" for="question3_option2">
+                                    UU Nomor 28
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="question3" id="question3_option3" value="UU Nomor 12 Tahun 2022">
+                                <label class="form-check-label" for="question3_option3">
+                                    UU Nomor 12 Tahun 2022
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="question3" id="question3_option4" value="UU Nomor 2 Tahun 2011">
+                                <label class="form-check-label" for="question3_option4">
+                                    UU Nomor 2 Tahun 2011
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="p-1 mb-3 bg-body rounded-3">
+                        <div class="container-fluid py-3">
+                            <h5 class="fw-semibold">Pertanyaan 4</h5>
+                            <p class="text-start text-break">
+                                Apa yang akan kamu lakukan apabila menemukan perlakuan yang digolongkan sebagai pelecehan seksual?
+                            </p>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="question4" id="question4_option1" value="Mengintrupsi">
+                                <label class="form-check-label" for="question4_option1">
+                                    Mengintrupsi
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="question4" id="question4_option2" value="Mendukung">
+                                <label class="form-check-label" for="question4_option2">
+                                    Mendukung
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="question4" id="question4_option3" value="Pura-pura tidak tahu">
+                                <label class="form-check-label" for="question4_option3">
+                                    Pura-pura tidak tahu
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="question4" id="question4_option4" value="Merekamnya sebagai bahan olok-olok kepada korban">
+                                <label class="form-check-label" for="question4_option4">
+                                    Merekamnya sebagai bahan olok-olok kepada korban
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="p-1 mb-3 bg-body rounded-3">
+                        <div class="container-fluid py-3">
+                            <h5 class="fw-semibold">Pertanyaan 5</h5>
+                            <p class="text-start text-break">
+                                Mass Rapid Transit (MRT) memiliki tujuh strategi pencegah kejahatan kekerasan seksual, 
+                                salah satunya menjauhkan toilet laki-laki dan perempuan.
+                            </p>
+                            <p>Menurut Anda mengapa MRT melakukan hal itu?</p>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="question5" id="question5_option1" value="Karena mengandung estetika pada desain bangunan">
+                                <label class="form-check-label" for="question5_option1">
+                                    Karena mengandung estetika pada desain bangunan
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="question5" id="question5_option2" value="Mencegah terjadinya kekerasan seksual karena toilet tidak bersebelahan">
+                                <label class="form-check-label" for="question5_option2">
+                                    Mencegah terjadinya kekerasan seksual karena toilet tidak bersebelahan
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="question5" id="question5_option3" value="Melatih kesabaran pengunjung">
+                                <label class="form-check-label" for="question5_option3">
+                                    Melatih kesabaran pengunjung
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="question5" id="question5_option4" value="Membuat pengunjung lebih sehat karena berjalan jauh">
+                                <label class="form-check-label" for="question5_option4">
+                                    Membuat pengunjung lebih sehat karena berjalan jauh
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="p-1 mb-3 bg-body rounded-3">
+                        <div class="container-fluid py-3">
+                            <h5 class="fw-semibold">Pertanyaan 6</h5>
+                            <p class="text-start text-break">
+                                Apa saja yang terdapat dalam sebuah video interaktif mengenai strategi pencegahan kekerasan seksual?
+                            </p>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="question6" id="question6_option1" value="Gambar yang bergerak atau animasi">
+                                <label class="form-check-label" for="question6_option1">
+                                    Gambar yang bergerak atau animasi
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="question6" id="question6_option2" value="Suara penjelasan">
+                                <label class="form-check-label" for="question6_option2">
+                                    Suara penjelasan
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="question6" id="question6_option3" value="Tombol yang dapat ditekan untuk playback, pause, dan volume">
+                                <label class="form-check-label" for="question6_option3">
+                                    Tombol yang dapat ditekan untuk playback, pause, dan volume
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="question6" id="question6_option4" value="Semua jawaban benar">
+                                <label class="form-check-label" for="question6_option4">
+                                    Semua jawaban benar
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="p-1 mb-3 bg-body rounded-3">
+                        <div class="container-fluid py-3">
+                            <h5 class="fw-semibold">Pertanyaan 7</h5>
+                            <p class="text-start text-break">
+                                Salah satu strategi pencegahan kekerasan seksual yang 
+                                PT. Kereta Api Indonesia lakukan adalah berupa hukuman blacklist pelaku tindak kekerasan 
+                                seksual agar tidak dapat menggunakan sarana transportasi Kereta Api seumur hidup dan 
+                                akan menjerat berdasarkan hukum UU Nomor 12 tahun 2022.
+                            </p>
+                            <p>Bagaimana pendapat Anda?</p>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="question7" id="question7_option1" value="Strategi ini merupakan langkah yang bagus agar dapat mencegah pelaku kembali melakukan kejahatannya">
+                                <label class="form-check-label" for="question7_option1">
+                                    Strategi ini merupakan langkah yang bagus agar dapat mencegah pelaku kembali melakukan kejahatannya
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="question7" id="question7_option2" value="Strategi ini hanya buang-buang waktu dan dana saja">
+                                <label class="form-check-label" for="question7_option2">
+                                    Strategi ini hanya buang-buang waktu dan dana saja
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="question7" id="question7_option3" value="Strategi ini memiliki peluang untuk dicurangi">
+                                <label class="form-check-label" for="question7_option3">
+                                    Strategi ini memiliki peluang untuk dicurangi
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="question7" id="question7_option4" value="Strategi ini kurang bagus karena akan mengurangi pengguna kereta api dan memberi kerugian bagi KAI">
+                                <label class="form-check-label" for="question7_option4">
+                                    Strategi ini kurang bagus karena akan mengurangi pengguna kereta api dan memberi kerugian bagi KAI
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="p-1 mb-3 bg-body rounded-3">
+                        <div class="container-fluid py-3">
+                            <h5 class="fw-semibold">Pertanyaan 8</h5>
+                            <p class="text-start text-break">
+                                Mei merupakan mahasiswi dari sebuah universitas.
+                                Mei mendapatkan tugas untuk membuat sosialisasi mengenai strategi 
+                                pencegahan kekerasan seksual ke sekolah-sekolah. Mei mendapatkan ide 
+                                untuk membuat video yang interaktif. Salah satu dari siswa yang mendapat 
+                                sosialisasi dari Mei kemudian kebetulan menyaksikan kejadian temannya 
+                                di-catcall oleh beberapa pria yang lewat.
+                            </p>
+                            <p>Menurut Anda, apa yang seharusnya siswa itu lakukan?</p>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="question8" id="question8_option1" value="Melanjutkan jalan, pura-pura tidak liat">
+                                <label class="form-check-label" for="question8_option1">
+                                    Melanjutkan jalan, pura-pura tidak liat
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="question8" id="question8_option2" value="Ikut catcall temannya tersebut">
+                                <label class="form-check-label" for="question8_option2">
+                                    Ikut catcall temannya tersebut
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="question8" id="question8_option3" value="Tidak mempedulikannya">
+                                <label class="form-check-label" for="question8_option3">
+                                    Tidak mempedulikannya
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="question8" id="question8_option4" value="Menegur para pria kalau catcalling merupakan bentuk kekerasan seksual">
+                                <label class="form-check-label" for="question8_option4">
+                                    Menegur para pria kalau catcalling merupakan bentuk kekerasan seksual
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                        <button type="submit" class="btn btn-primary">Submit Quiz</button>
+                    </div>
+
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+
+<!-- JavaScript Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    
+</body>
+
+</html>
