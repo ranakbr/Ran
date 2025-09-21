@@ -1,0 +1,48 @@
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('tower.jpg');
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.875rem;
+    opacity: 1;
+    overflow-y: scroll;
+    margin: 0;
+}
+
+.bg-login-user {
+    background-image: url('pagelogin.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 15px 0px 0px 15px;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.box{
+    background-color: #ffffff;
+    border-radius: 15px;
+    border-color: #000000;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.box2{
+    background-color: #ffffff;
+    border-radius: 15px;
+    width: 50vh;
+    border-color: #000000;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.form-label{
+    font-size: larger;
+}
